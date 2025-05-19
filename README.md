@@ -1,3 +1,5 @@
+
+![Build Status](https://github.com/juniors90/fastapitutorial/actions/workflows/coverage.yml/badge.svg)
 [![codecov](https://codecov.io/gh/juniors90/fastapitutorial/graph/badge.svg?token=FYn0fBOBP9)](https://codecov.io/gh/juniors90/fastapitutorial)
 ![GitHub Repo stars](https://img.shields.io/github/stars/juniors90/fastapitutorial)
 ![GitHub forks](https://img.shields.io/github/forks/juniors90/fastapitutorial)

@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-import models, schemas
+import app.models as models, app.schemas as schemas
 
 
 def get_libros(db: Session):
@@ -11,7 +11,7 @@ def get_libro(db: Session, libro_id: int):
 
 
 def create_libro(db: Session, libro: schemas.LibroCreate):
-    db_libro = models.Libro(**libro.dict())
+    db_libro = models.Libro(**libro.model_dump())  # ✅ recomendado en Pydantic 2.0
     db.add(db_libro)
     db.commit()
     db.refresh(db_libro)

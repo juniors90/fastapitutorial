@@ -4,13 +4,26 @@
 
 ## Estructura de carpetas
 
+´´´
 fastapi_libros/
 │
-├── main.py               # Punto de entrada
-├── models.py             # Modelos SQLAlchemy
-├── schemas.py            # Modelos Pydantic
-├── database.py           # Conexión a la base de datos
-├── crud.py               # Lógica de acceso a datos
+├── app/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud.py
+│   └── database.py
+│
+├── tests/
+│   └── test_main.py
+│
+├── .github/
+│   └── workflows/
+│       └── test.yml
+│
+├── requirements.txt
+└── pytest.ini
+´´´
 
 ## POST
 

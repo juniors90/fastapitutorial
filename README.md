@@ -4,7 +4,7 @@
 
 ## Estructura de carpetas
 
-´´´
+```
 fastapi_libros/
 │
 ├── app/
@@ -23,7 +23,7 @@ fastapi_libros/
 │
 ├── requirements.txt
 └── pytest.ini
-´´´
+```
 
 ## POST
 

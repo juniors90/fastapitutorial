@@ -1,4 +1,9 @@
 [![codecov](https://codecov.io/gh/juniors90/fastapitutorial/graph/badge.svg?token=FYn0fBOBP9)](https://codecov.io/gh/juniors90/fastapitutorial)
+![GitHub Repo stars](https://img.shields.io/github/stars/juniors90/fastapitutorial)
+![GitHub forks](https://img.shields.io/github/forks/juniors90/fastapitutorial)
+[![issues](https://img.shields.io/github/issues/juniors90/fastapitutorial?color=teal)](https://github.com/juniors90/fastapitutorial/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/juniors90/fastapitutorial?color=green)](https://github.com/juniors90/fastapitutorial/graphs/contributors)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Tutorial FastAPI
 
